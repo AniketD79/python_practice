@@ -29,3 +29,6 @@ print(name[-1 : -4 : -1]) #TEK
 sentence= "My name is Aniket and I am a Developer"
 print(sentence.endswith("r")) #True or false ans is True, it checks whole string's ending to match with "r"
 print(sentence.count("a")) #Case sensitive 
+print(sentence.count("am"))
+print(sentence.replace("a", "k"))# replace all a's with k
+print(sentence.find("a")) # Gives first index of a and if no 'a' is present in whole string then returns -1
