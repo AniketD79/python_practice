@@ -1,4 +1,4 @@
-num=39
+num=38
 if(num%2==0):
     print(num ,"is Even number!")
 else:
