@@ -25,3 +25,7 @@ print(name[0: len(name)]) #ANIKET
 # -6 -5 -4 -3 -2 -1
 # A   N  I  K  E  T
 print(name[-1 : -4 : -1]) #TEK
+
+sentence= "My name is Aniket and I am a Developer"
+print(sentence.endswith("r")) #True or false ans is True, it checks whole string's ending to match with "r"
+print(sentence.count("a")) #Case sensitive 
