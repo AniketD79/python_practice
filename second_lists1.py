@@ -30,3 +30,8 @@ print(b)
 b.insert(33, 33) # will insert the element 44 at the index 4
 print(b) # If we insert an element at the index which is currenlt not in the range that is exceeds the length of the list, it will add that element at the very end of the list
 
+b.remove(33) #Remove first occurance of element 33
+print(b)
+
+b.pop(2) #Removes element at the index 2
+print(b)
