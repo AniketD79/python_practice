@@ -1,0 +1,3 @@
+Hello My name is Aniket and I am writing this file to test file i/o.
+This is the second line let's what happens.
+This is the third line see you on the terminal.
