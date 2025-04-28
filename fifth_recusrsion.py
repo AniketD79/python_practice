@@ -29,8 +29,8 @@ def recursiveList(list, index):
         return
     print(list[index])
     recursiveList(list, index-1)
-
-recursiveList([1,2,3,4,5,6,7],len((list)-1))
+list1=[1,2,3,4,5,6,7]
+recursiveList(list1,len(list1)-1)
 
 
 
