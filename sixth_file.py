@@ -33,18 +33,33 @@
 
 #Q4
 
-def check_for_line() :
-    word = "Aniket"
-    data = True
-    line_no = 1
-    with open("auto_created_file.txt", "r") as f:
-        while data:
-            data = f.readline()
-            if(word in data):
-                print(line_no)
-                return
-            line_no +=1
-    return -1
+# def check_for_line() :
+#     word = "Aniket"
+#     data = True
+#     line_no = 1
+#     with open("auto_created_file.txt", "r") as f:
+#         while data:
+#             data = f.readline()
+#             if(word in data):
+#                 print(line_no)
+#                 return
+#             line_no +=1
+#     return -1
 
-check_for_line()
+# check_for_line()
+
+
+
+
+
+
+#Q5
+count = 0
+with open("sixth_nums.txt", "r") as f:
+    data= f.read()
+    nums= data.split(",")
+    for num in nums:
+        if(int(num) % 2==0):
+            count +=1
     
+    print(count)
