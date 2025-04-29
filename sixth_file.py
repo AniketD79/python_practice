@@ -63,3 +63,4 @@ with open("sixth_nums.txt", "r") as f:
             count +=1
     
     print(count)
+    
